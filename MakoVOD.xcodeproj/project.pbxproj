@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F415CF9C1C070C430038A1AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F415CF9B1C070C430038A1AC /* AppDelegate.swift */; };
+		F415CF9E1C070C430038A1AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F415CF9D1C070C430038A1AC /* ViewController.swift */; };
+		F415CFA11C070C430038A1AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F415CF9F1C070C430038A1AC /* Main.storyboard */; };
+		F415CFA31C070C430038A1AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F415CFA21C070C430038A1AC /* Assets.xcassets */; };
+		F415CFAE1C070C430038A1AC /* MakoVODTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F415CFAD1C070C430038A1AC /* MakoVODTests.swift */; };
+		F415CFB91C070C430038A1AC /* MakoVODUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F415CFB81C070C430038A1AC /* MakoVODUITests.swift */; };
+		F415CFC71C072AF40038A1AC /* vod.swift in Sources */ = {isa = PBXBuildFile; fileRef = F415CFC61C072AF40038A1AC /* vod.swift */; };
+		F47B083D1C0AE06A00C6167F /* SwiftHTTPTV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F47B083A1C0AE06A00C6167F /* SwiftHTTPTV.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F415CFAA1C070C430038A1AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F415CF901C070C430038A1AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F415CF971C070C430038A1AC;
+			remoteInfo = MakoVOD;
+		};
+		F415CFB51C070C430038A1AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F415CF901C070C430038A1AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F415CF971C070C430038A1AC;
+			remoteInfo = MakoVOD;
+		};
+		F47B080C1C0ADF5600C6167F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F47B08051C0ADF5600C6167F /* SwiftHTTP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6BFD901619C8D8B500DD99B6;
+			remoteInfo = SwiftHTTP;
+		};
+		F47B080E1C0ADF5600C6167F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F47B08051C0ADF5600C6167F /* SwiftHTTP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6BFD902119C8D8B500DD99B6;
+			remoteInfo = SwiftHTTPTests;
+		};
+		F47B08101C0ADF5600C6167F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F47B08051C0ADF5600C6167F /* SwiftHTTP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D958025919E6EEEB003C8218;
+			remoteInfo = SwiftHTTPOSX;
+		};
+		F47B08121C0ADF5600C6167F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F47B08051C0ADF5600C6167F /* SwiftHTTP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D958026319E6EEEB003C8218;
+			remoteInfo = SwiftHTTPOSXTests;
+		};
+		F47B08391C0AE06A00C6167F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F47B08051C0ADF5600C6167F /* SwiftHTTP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F47B08191C0ADF8500C6167F;
+			remoteInfo = SwiftHTTPTV;
+		};
+		F47B083B1C0AE06A00C6167F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F47B08051C0ADF5600C6167F /* SwiftHTTP.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F47B08221C0ADF8500C6167F;
+			remoteInfo = SwiftHTTPTVTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F415CF981C070C430038A1AC /* MakoVOD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakoVOD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F415CF9B1C070C430038A1AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F415CF9D1C070C430038A1AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F415CFA01C070C430038A1AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F415CFA21C070C430038A1AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F415CFA41C070C430038A1AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F415CFA91C070C430038A1AC /* MakoVODTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakoVODTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F415CFAD1C070C430038A1AC /* MakoVODTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakoVODTests.swift; sourceTree = "<group>"; };
+		F415CFAF1C070C430038A1AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F415CFB41C070C430038A1AC /* MakoVODUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakoVODUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F415CFB81C070C430038A1AC /* MakoVODUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakoVODUITests.swift; sourceTree = "<group>"; };
+		F415CFBA1C070C430038A1AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F415CFC61C072AF40038A1AC /* vod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = vod.swift; sourceTree = "<group>"; };
+		F4602CEA1C0B14A600797BBD /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		F47B08051C0ADF5600C6167F /* SwiftHTTP.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftHTTP.xcodeproj; path = SwiftHTTP/SwiftHTTP.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F415CF951C070C430038A1AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F47B083D1C0AE06A00C6167F /* SwiftHTTPTV.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F415CFA61C070C430038A1AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F415CFB11C070C430038A1AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F415CF8F1C070C430038A1AC = {
+			isa = PBXGroup;
+			children = (
+				F47B08051C0ADF5600C6167F /* SwiftHTTP.xcodeproj */,
+				F415CF9A1C070C430038A1AC /* MakoVOD */,
+				F415CFAC1C070C430038A1AC /* MakoVODTests */,
+				F415CFB71C070C430038A1AC /* MakoVODUITests */,
+				F415CF991C070C430038A1AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F415CF991C070C430038A1AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F415CF981C070C430038A1AC /* MakoVOD.app */,
+				F415CFA91C070C430038A1AC /* MakoVODTests.xctest */,
+				F415CFB41C070C430038A1AC /* MakoVODUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F415CF9A1C070C430038A1AC /* MakoVOD */ = {
+			isa = PBXGroup;
+			children = (
+				F4602CEA1C0B14A600797BBD /* MyPlayground.playground */,
+				F415CF9B1C070C430038A1AC /* AppDelegate.swift */,
+				F415CF9D1C070C430038A1AC /* ViewController.swift */,
+				F415CF9F1C070C430038A1AC /* Main.storyboard */,
+				F415CFA21C070C430038A1AC /* Assets.xcassets */,
+				F415CFA41C070C430038A1AC /* Info.plist */,
+				F415CFC61C072AF40038A1AC /* vod.swift */,
+			);
+			path = MakoVOD;
+			sourceTree = "<group>";
+		};
+		F415CFAC1C070C430038A1AC /* MakoVODTests */ = {
+			isa = PBXGroup;
+			children = (
+				F415CFAD1C070C430038A1AC /* MakoVODTests.swift */,
+				F415CFAF1C070C430038A1AC /* Info.plist */,
+			);
+			path = MakoVODTests;
+			sourceTree = "<group>";
+		};
+		F415CFB71C070C430038A1AC /* MakoVODUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F415CFB81C070C430038A1AC /* MakoVODUITests.swift */,
+				F415CFBA1C070C430038A1AC /* Info.plist */,
+			);
+			path = MakoVODUITests;
+			sourceTree = "<group>";
+		};
+		F47B08061C0ADF5600C6167F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F47B080D1C0ADF5600C6167F /* SwiftHTTP.framework */,
+				F47B080F1C0ADF5600C6167F /* SwiftHTTPTests.xctest */,
+				F47B08111C0ADF5600C6167F /* SwiftHTTP.framework */,
+				F47B08131C0ADF5600C6167F /* SwiftHTTPOSXTests.xctest */,
+				F47B083A1C0AE06A00C6167F /* SwiftHTTPTV.framework */,
+				F47B083C1C0AE06A00C6167F /* SwiftHTTPTVTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F415CF971C070C430038A1AC /* MakoVOD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F415CFBD1C070C430038A1AC /* Build configuration list for PBXNativeTarget "MakoVOD" */;
+			buildPhases = (
+				F415CF941C070C430038A1AC /* Sources */,
+				F415CF951C070C430038A1AC /* Frameworks */,
+				F415CF961C070C430038A1AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MakoVOD;
+			productName = MakoVOD;
+			productReference = F415CF981C070C430038A1AC /* MakoVOD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F415CFA81C070C430038A1AC /* MakoVODTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F415CFC01C070C430038A1AC /* Build configuration list for PBXNativeTarget "MakoVODTests" */;
+			buildPhases = (
+				F415CFA51C070C430038A1AC /* Sources */,
+				F415CFA61C070C430038A1AC /* Frameworks */,
+				F415CFA71C070C430038A1AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F415CFAB1C070C430038A1AC /* PBXTargetDependency */,
+			);
+			name = MakoVODTests;
+			productName = MakoVODTests;
+			productReference = F415CFA91C070C430038A1AC /* MakoVODTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F415CFB31C070C430038A1AC /* MakoVODUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F415CFC31C070C430038A1AC /* Build configuration list for PBXNativeTarget "MakoVODUITests" */;
+			buildPhases = (
+				F415CFB01C070C430038A1AC /* Sources */,
+				F415CFB11C070C430038A1AC /* Frameworks */,
+				F415CFB21C070C430038A1AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F415CFB61C070C430038A1AC /* PBXTargetDependency */,
+			);
+			name = MakoVODUITests;
+			productName = MakoVODUITests;
+			productReference = F415CFB41C070C430038A1AC /* MakoVODUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F415CF901C070C430038A1AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = n/a;
+				TargetAttributes = {
+					F415CF971C070C430038A1AC = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = YH27FTY373;
+					};
+					F415CFA81C070C430038A1AC = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = F415CF971C070C430038A1AC;
+					};
+					F415CFB31C070C430038A1AC = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = F415CF971C070C430038A1AC;
+					};
+				};
+			};
+			buildConfigurationList = F415CF931C070C430038A1AC /* Build configuration list for PBXProject "MakoVOD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F415CF8F1C070C430038A1AC;
+			productRefGroup = F415CF991C070C430038A1AC /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F47B08061C0ADF5600C6167F /* Products */;
+					ProjectRef = F47B08051C0ADF5600C6167F /* SwiftHTTP.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				F415CF971C070C430038A1AC /* MakoVOD */,
+				F415CFA81C070C430038A1AC /* MakoVODTests */,
+				F415CFB31C070C430038A1AC /* MakoVODUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		F47B080D1C0ADF5600C6167F /* SwiftHTTP.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftHTTP.framework;
+			remoteRef = F47B080C1C0ADF5600C6167F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F47B080F1C0ADF5600C6167F /* SwiftHTTPTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwiftHTTPTests.xctest;
+			remoteRef = F47B080E1C0ADF5600C6167F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F47B08111C0ADF5600C6167F /* SwiftHTTP.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftHTTP.framework;
+			remoteRef = F47B08101C0ADF5600C6167F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F47B08131C0ADF5600C6167F /* SwiftHTTPOSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwiftHTTPOSXTests.xctest;
+			remoteRef = F47B08121C0ADF5600C6167F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F47B083A1C0AE06A00C6167F /* SwiftHTTPTV.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftHTTPTV.framework;
+			remoteRef = F47B08391C0AE06A00C6167F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		F47B083C1C0AE06A00C6167F /* SwiftHTTPTVTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SwiftHTTPTVTests.xctest;
+			remoteRef = F47B083B1C0AE06A00C6167F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F415CF961C070C430038A1AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F415CFA31C070C430038A1AC /* Assets.xcassets in Resources */,
+				F415CFA11C070C430038A1AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F415CFA71C070C430038A1AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F415CFB21C070C430038A1AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F415CF941C070C430038A1AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F415CFC71C072AF40038A1AC /* vod.swift in Sources */,
+				F415CF9E1C070C430038A1AC /* ViewController.swift in Sources */,
+				F415CF9C1C070C430038A1AC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F415CFA51C070C430038A1AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F415CFAE1C070C430038A1AC /* MakoVODTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F415CFB01C070C430038A1AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F415CFB91C070C430038A1AC /* MakoVODUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F415CFAB1C070C430038A1AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F415CF971C070C430038A1AC /* MakoVOD */;
+			targetProxy = F415CFAA1C070C430038A1AC /* PBXContainerItemProxy */;
+		};
+		F415CFB61C070C430038A1AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F415CF971C070C430038A1AC /* MakoVOD */;
+			targetProxy = F415CFB51C070C430038A1AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F415CF9F1C070C430038A1AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F415CFA01C070C430038A1AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F415CFBB1C070C430038A1AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/**";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/**";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		F415CFBC1C070C430038A1AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/**";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				SWIFT_INCLUDE_PATHS = "$(PROJECT_DIR)/**";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F415CFBE1C070C430038A1AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MakoVOD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = guy.erlich.MakoVOD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		F415CFBF1C070C430038A1AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				INFOPLIST_FILE = MakoVOD/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = guy.erlich.MakoVOD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		F415CFC11C070C430038A1AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MakoVODTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = guy.erlich.MakoVODTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MakoVOD.app/MakoVOD";
+			};
+			name = Debug;
+		};
+		F415CFC21C070C430038A1AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MakoVODTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = guy.erlich.MakoVODTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MakoVOD.app/MakoVOD";
+			};
+			name = Release;
+		};
+		F415CFC41C070C430038A1AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MakoVODUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = guy.erlich.MakoVODUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MakoVOD;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F415CFC51C070C430038A1AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MakoVODUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = guy.erlich.MakoVODUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MakoVOD;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F415CF931C070C430038A1AC /* Build configuration list for PBXProject "MakoVOD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F415CFBB1C070C430038A1AC /* Debug */,
+				F415CFBC1C070C430038A1AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F415CFBD1C070C430038A1AC /* Build configuration list for PBXNativeTarget "MakoVOD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F415CFBE1C070C430038A1AC /* Debug */,
+				F415CFBF1C070C430038A1AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F415CFC01C070C430038A1AC /* Build configuration list for PBXNativeTarget "MakoVODTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F415CFC11C070C430038A1AC /* Debug */,
+				F415CFC21C070C430038A1AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F415CFC31C070C430038A1AC /* Build configuration list for PBXNativeTarget "MakoVODUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F415CFC41C070C430038A1AC /* Debug */,
+				F415CFC51C070C430038A1AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F415CF901C070C430038A1AC /* Project object */;
+}
