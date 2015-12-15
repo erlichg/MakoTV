@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3D51C73B92E43E510D2F03B281939B315775E30F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "38D9009B322140394B9DA7467F68950B56B35FF5" : 0,
+    "3D51C73B92E43E510D2F03B281939B315775E30F" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C284380B-60DB-4E26-9CFC-AF98904EB3A2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "38D9009B322140394B9DA7467F68950B56B35FF5" : "MakoVOD\/SwiftHTTP\/",
+    "3D51C73B92E43E510D2F03B281939B315775E30F" : "MakoVOD\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "MakoVOD",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "MakoVOD.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/daltoniam\/SwiftHTTP.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "38D9009B322140394B9DA7467F68950B56B35FF5"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/erlichg\/MakoTV.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3D51C73B92E43E510D2F03B281939B315775E30F"
+    }
+  ]
+}
